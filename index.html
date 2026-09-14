@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE LOST | NEWPIXEL</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="noise"></div>
+<header>
+  <a class="brand" href="#"><div class="logo">TL</div><div><b>THE LOST</b><small>NEWPIXEL</small></div></a>
+  <a class="discord" href="#apply">تقديم العصابة</a>
+</header>
+
+<main>
+<section class="hero">
+  <div class="badge">NEWPIXEL • GANG APPLICATION</div>
+  <h1>THE <span>LOST</span></h1>
+  <p>تقديم رسمي للانضمام إلى عصابة <b>THE LOST</b> في سيرفر NEWPIXEL.</p>
+  <a class="cta" href="#apply">ابدأ التقديم ↓</a>
+</section>
+
+<section class="rules">
+<h2>قوانين وشروط التقديم</h2>
+<div class="cards">
+<div><b>01</b><h3>البيانات الصحيحة</h3><p>لازم تعبي بياناتك الحقيقية داخل النموذج. أي بيانات ناقصة أو خاطئة قد تسبب رفض الطلب.</p></div>
+<div><b>02</b><h3>الاحترام</h3><p>الالتزام بالاحترام مع أعضاء العصابة والإدارة وعدم افتعال المشاكل داخل السيرفر.</p></div>
+<div><b>03</b><h3>الجدية</h3><p>التقديم للجادين فقط. لازم تكون مستعد للالتزام بقوانين NEWPIXEL وقوانين THE LOST.</p></div>
+<div><b>04</b><h3>الفيديو</h3><p>أرفق رابط فيديو واضح من لعبك، ويفضل أن يوضح مستواك في التصويب والقتال.</p></div>
+</div>
+<div class="warning">⚠️ تعبئة جميع البيانات المطلوبة لا تعني القبول، والقرار النهائي للإدارة.</div>
+</section>
+
+<section id="apply" class="form-section">
+<h2>نموذج التقديم</h2>
+<p class="sub">عبّي البيانات كاملة حتى ما يتم رفض طلبك بسبب نقص المعلومات.</p>
+<form id="form">
+<label>الاسم الكامل<input name="name" required placeholder="اكتب اسمك"></label>
+<label>العمر<input name="age" type="number" min="13" max="99" required placeholder="مثال: 21"></label>
+<label>Discord<input name="discord" required placeholder="مثال: username"></label>
+<label>خبرتك في FiveM / القتال<textarea name="experience" placeholder="اكتب خبرتك..."></textarea></label>
+<label>سبب التقديم<textarea name="reason" required placeholder="ليش تبي تنضم لـ THE LOST؟"></textarea></label>
+<label>رابط فيديو من لعبك<input name="video" type="url" required placeholder="https://..."></label>
+<label class="check"><input type="checkbox" id="agree" required> أوافق على قوانين THE LOST وNEWPIXEL وأؤكد أن البيانات كاملة.</label>
+<button type="submit">إرسال الطلب إلى Discord</button>
+<div id="status"></div>
+</form>
+</section>
+</main>
+<footer>THE LOST © NEWPIXEL</footer>
+<script src="app.js"></script>
+</body>
+</html>
